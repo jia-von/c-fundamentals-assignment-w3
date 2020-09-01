@@ -2,13 +2,22 @@
 
 namespace C_Fundamentals_Assignment_W3
 {
-    class Car : Vehicle
+    class Program
 
     {
 
         static void Main(string[] args)
         {
-            //Exercise 7: The Car class should inherit the class members from the Vehicle class. Fill in the missing part to make this possible.
+            //Exercise 1: Fill in the missing parts to output an error message if an error occurs.
+            try
+            {
+                int[] myNumbers = { 1, 2, 3 };
+                Console.WriteLine(myNumbers[10]);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
 
         }
 
