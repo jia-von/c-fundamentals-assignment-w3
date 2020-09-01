@@ -8,16 +8,12 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 2: Use the do/while loop to print i as long as i is less than 6.
+            //Exercise 3: Use a for loop to print "Yes" 5 times:
 
-
-            int i = 1;
-            do
+            for(int i = 0; i < 5; i++) 
             {
-                Console.WriteLine(i);
-                i++;
+                Console.WriteLine("Yes");
             }
-            while (i < 6);
 
         }
     }
