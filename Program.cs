@@ -8,7 +8,8 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Create a method named MyMethod and call it inside Main().
+            //Exercise 2: Insert the missing parts to call MyMethod two times.
+            MyMethod();
             MyMethod();
 
         }
