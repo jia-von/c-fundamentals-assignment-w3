@@ -13,15 +13,6 @@ namespace C_Fundamentals_Assignment_W3 //namespace is used to organize my code, 
             Console.WriteLine("Initial Commit"); // Console is a class of the namespace , when clicked on IDE, it has metadata appeared. 
         /*---------------------------------------EXERCISE ENDS----------------------------------------------------------*/
 
-            /*-------------------------------------EXERCISE STARTS---------------------------------------------*/
-            //Execise 1: Comments -- COMPLETED
-            //This is a single-line comment 
-            /*
-             * This is a multi-line comment
-             */
-        /*-------------------------------------------EXERCISE ENDS----------------------------------------------------------*/
-            double myDoubleNum = 5.99D;
-            Console.WriteLine(myDoubleNum); // output myDoubleNum doesn't show the 'D' at the end. 
         }
     }
 }
