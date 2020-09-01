@@ -8,8 +8,9 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Multiply 10 with 5, and print the result.
-            Console.WriteLine(10 / 5);
+            //Exercise 3: Use the correct operator to increase the value of the variable x by 1.
+            int x = 10;
+            x++;
 
         }
     }
