@@ -8,16 +8,14 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 3: Add a fname parameter of type string to MyMethod.
-            MyMethod("Liam");
-            MyMethod("Jenny");
-            MyMethod("Anja");
+            //Exercise 4: Insert the missing part to print the number 8 in Main, by using a specific keyword inside MyMethod
+            Console.WriteLine(MyMethod(3));
 
         }
 
-        static void MyMethod(string fname) 
+        static int MyMethod(int x) 
         {
-            Console.WriteLine(fname + " Refsnes");
+            return 5 + x;
         }
 }
 }
