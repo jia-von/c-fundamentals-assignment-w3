@@ -8,11 +8,16 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 3: Use a for loop to print "Yes" 5 times:
+            //Exercise 4: Stop the loop if i is 5.
 
-            for(int i = 0; i < 5; i++) 
+
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Yes");
+                if (i == 5)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
             }
 
         }
