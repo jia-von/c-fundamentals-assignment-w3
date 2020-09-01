@@ -8,11 +8,12 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 2: Print the value of the second element in the cars array.
+            //Exercise 2: Change the value from "Volvo" to "Opel", in the cars array.
 
 
             string[] cars = { "Volvo", "BMW", "Ford", "Mazda"};
-            Console.WriteLine(cars[1]);
+            cars[0] = "Opel";
+            Console.WriteLine(cars[0]);
 
         }
     }
