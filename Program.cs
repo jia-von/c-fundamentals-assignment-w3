@@ -7,8 +7,8 @@ namespace C_Fundamentals_Assignment_W3
     {
         static void Main(string[] args)
         {
-
-            //Exercise 1: Create a class called MyClass.
+            //Exercise 2: Create an object of MyClass called myObj.
+            MyClass myObj = new MyClass();
 
         }
 
