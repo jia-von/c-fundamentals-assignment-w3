@@ -8,13 +8,19 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 5: Insert the missing parts to complete the following "short hand if...else statement" (ternary operator):
+            //Exercise 1: Insert the missing parts to complete the following switch statement.
 
-
-            int time = 20;
-            string result = (time < 18) ? "Good day." : "Good evening.";
-            Console.WriteLine(result);
-
+            int day = 2;
+            switch (day)
+            {
+            case 1:
+                Console.WriteLine("Monday");
+            break;
+            case 2:
+                Console.WriteLine("Tuesday");
+            break;
         }
+
+    }
     }
 }
