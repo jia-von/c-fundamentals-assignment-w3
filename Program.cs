@@ -8,22 +8,16 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 2: Complete the switch statement, and add the correct keyword at the end to specify some code to run if there is no case match in the switch statement.
+            //Exercise 1: Print i as long as i is less than 6.
 
-            int day = 3;
-            switch (day)
+
+            int i = 1;
+            while (i < 6) 
             {
-            case 1:
-                Console.WriteLine("Today is Saturday");
-            break;
-            case 2:
-                Console.WriteLine("Today is Sunday");
-            break;
-            default:
-                Console.WriteLine("Looking forward to the Weekend");
-            break;
-        }
+                Console.WriteLine(i);
+                i++;
+            }
 
-    }
+        }
     }
 }
