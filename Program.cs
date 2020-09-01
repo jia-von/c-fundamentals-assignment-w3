@@ -8,7 +8,7 @@ namespace C_Fundamentals_Assignment_W3
 
         static void Main(string[] args)
         {
-            //Exercise 1: Fill in the missing parts to output an error message if an error occurs.
+            //Exercise 2: Fill in the missing parts to execute some code, after the exception statements, regardless of the result.
             try
             {
                 int[] myNumbers = { 1, 2, 3 };
@@ -16,9 +16,12 @@ namespace C_Fundamentals_Assignment_W3
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine("Something went wrong.");
             }
-
+            finally
+            {
+                Console.WriteLine("The 'try catch' is finished.");
+            }
         }
 
     }
