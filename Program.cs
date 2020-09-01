@@ -1,12 +1,27 @@
-﻿using System;
+﻿using System;// means that we can use classes from the System namespace
 
-namespace C_Fundamentals_Assignment_W3
+namespace C_Fundamentals_Assignment_W3 //namespace is used to organize my code, and it is a container for classes and other namespace
 {
-    class Program
-    {
-        static void Main(string[] args)
+    class Program // is a container for data and methods, which brings functionality to your pgrogram. 
+        //Every line of code that runs in c# must be inside a class. 
+
+    {   //Tutorial notes F5 is to debug the code --> Completed debugging September 1, 2020 at 10:18 am.
+        /*--------------------------------------EXERCISE STARTS---------------------------------------*/
+        //Exercise 1: Syntax exercise COMPLETED
+        static void Main(string[] args)// Any code inside the curly braces of Main will be executed. 
         {
-            Console.WriteLine("Initial Commit");
+            Console.WriteLine("Initial Commit"); // Console is a class of the namespace , when clicked on IDE, it has metadata appeared. 
+        /*---------------------------------------EXERCISE ENDS----------------------------------------------------------*/
+
+            /*-------------------------------------EXERCISE STARTS---------------------------------------------*/
+            //Execise 1: Comments -- COMPLETED
+            //This is a single-line comment 
+            /*
+             * This is a multi-line comment
+             */
+        /*-------------------------------------------EXERCISE ENDS----------------------------------------------------------*/
+            double myDoubleNum = 5.99D;
+            Console.WriteLine(myDoubleNum); // output myDoubleNum doesn't show the 'D' at the end. 
         }
     }
 }
