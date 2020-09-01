@@ -8,14 +8,14 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 4: Insert the missing part to print the number 8 in Main, by using a specific keyword inside MyMethod
-            Console.WriteLine(MyMethod(3));
+            //Exercise 1: Create a class called MyClass.
 
         }
 
-        static int MyMethod(int x) 
+        class MyClass
         {
-            return 5 + x;
+
         }
+
 }
 }
