@@ -5,14 +5,16 @@ namespace C_Fundamentals_Assignment_W3
     class Car
 
     {
-        int maxSpeed;
+        public void fullThrottle()
+        {
+            Console.WriteLine("The car is going as fast as it can!");
+        }
         static void Main(string[] args)
         {
-            //Exercise 3: Create an object of Car called myObj, and use it to set the value of maxSpeed to 200.
+            //Exercise 4: Call the fullThrottle() method from the object:
             Car myObj = new Car();
-            myObj.maxSpeed = 200;
-            Console.WriteLine(myObj.color);
-            Console.WriteLine(myObj.maxSpeed);
+            myObj.fullThrottle();
+
         }
 
     }
