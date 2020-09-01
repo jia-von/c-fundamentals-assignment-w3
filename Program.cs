@@ -8,9 +8,10 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 4: Type Casting - Use the correct conversion method to convert the int variable to a string:
-            int myInt = 10;
-            Console.WriteLine(Convert.ToString(myInt));
+            //Exercise 1: Fill in the missing parts to get user input, stored in the variable userName:
+            Console.WriteLine("Enter username:");
+            string userName = Console.ReadLine();
+            Console.WriteLine("Username is: " + userName);
         }
     }
 }
