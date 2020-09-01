@@ -8,9 +8,9 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 3: Create a greeting variable, and display the value of it:
-            string greeting = "Hello";
-            Console.WriteLine(greeting);
+            //Exercise 4: Type Casting - Use the correct conversion method to convert the int variable to a string:
+            int myInt = 10;
+            Console.WriteLine(Convert.ToString(myInt));
         }
     }
 }
