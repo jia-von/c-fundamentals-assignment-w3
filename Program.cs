@@ -8,9 +8,9 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 3: Use the correct method to round the number 2.6 to its nearest integer.
+            //Exercise 1: Fill in the missing part to create a greeting variable of type string and assign it the value Hello.
 
-            Console.WriteLine(Math.Round(2.6));
+            string greeting = "Hello";
 
         }
     }
