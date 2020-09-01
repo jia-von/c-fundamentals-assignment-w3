@@ -8,22 +8,12 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 4: Print "1" if x is equal to y, print "2" if x is greater than y, otherwise print "3".
+            //Exercise 5: Insert the missing parts to complete the following "short hand if...else statement" (ternary operator):
 
-            int x = 50;
-            int y = 50;
-            if(x == y) 
-            {
-                Console.WriteLine("1");
-            }else
-            if(x > y) 
-            {
-                Console.WriteLine("2");
-            }
-            else
-            {
-                Console.WriteLine("3");
-            }
+
+            int time = 20;
+            string result = (time < 18) ? "Good day." : "Good evening.";
+            Console.WriteLine(result);
 
         }
     }
