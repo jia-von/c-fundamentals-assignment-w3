@@ -8,14 +8,14 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 4: Stop the loop if i is 5.
+            //Exercise 5: In the following loop, when the value is "4", jump directly to the next value.
 
 
             for (int i = 0; i < 10; i++)
             {
-                if (i == 5)
+                if (i == 4)
                 {
-                    break;
+                    continue;
                 }
                 Console.WriteLine(i);
             }
