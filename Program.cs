@@ -8,9 +8,11 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 4: Use the addition assignment operator to add the value 5 to the variable x.
-            int x = 10;
-            x += 5;
+            //Exercise 1: Use the correct method to print the highest value of x and y.
+
+            int x = 5;
+            int y = 10;
+            Console.WriteLine(Math.Max(x, y));
 
         }
     }
