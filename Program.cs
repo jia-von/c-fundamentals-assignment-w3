@@ -9,7 +9,7 @@ namespace C_Fundamentals_Assignment_W3
         {
 
             //Exercise 1: Multiply 10 with 5, and print the result.
-            Console.WriteLine(10 * 5);
+            Console.WriteLine(10 / 5);
 
         }
     }
