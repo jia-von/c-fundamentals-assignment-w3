@@ -8,10 +8,12 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 6: Use the correct method to output the value of the txt string to upper case letters.
+            //Exercise 1: Fill in the missing parts to print the values True and False:
 
-            string txt = "Hello World";
-            Console.WriteLine(txt.ToUpper());
+            bool isCodingFun = true;
+            bool isFishTasty = false;
+            Console.WriteLine(isCodingFun);
+            Console.WriteLine(isFishTasty);
 
         }
     }
