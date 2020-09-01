@@ -8,17 +8,10 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 5: In the following loop, when the value is "4", jump directly to the next value.
+            //Exercise 1: Create an array of type string called cars.
 
 
-            for (int i = 0; i < 10; i++)
-            {
-                if (i == 4)
-                {
-                    continue;
-                }
-                Console.WriteLine(i);
-            }
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda"};
 
         }
     }
