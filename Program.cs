@@ -8,12 +8,11 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Print "Hello World" if x is greater than y.
-
+            //Exercise 2: Print "Hello World" if x is equal to y.
 
             int x = 50;
-            int y = 10;
-            if(x > y) 
+            int y = 50;
+            if(x == y) 
             {
                 Console.WriteLine("Hello World");
             }
