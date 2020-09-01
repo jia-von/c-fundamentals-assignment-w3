@@ -8,12 +8,11 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Fill in the missing parts to print the values True and False:
+            //Exercise 2: Fill in the missing parts to print the value True:
 
-            bool isCodingFun = true;
-            bool isFishTasty = false;
-            Console.WriteLine(isCodingFun);
-            Console.WriteLine(isFishTasty);
+            int x = 10;
+            int y = 9;
+            Console.WriteLine(x>y);
 
         }
     }
