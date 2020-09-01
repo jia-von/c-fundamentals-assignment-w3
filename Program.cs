@@ -8,9 +8,9 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 3: Use the correct operator to increase the value of the variable x by 1.
+            //Exercise 4: Use the addition assignment operator to add the value 5 to the variable x.
             int x = 10;
-            x++;
+            x += 5;
 
         }
     }
