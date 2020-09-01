@@ -8,10 +8,10 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Fill in the missing parts to get user input, stored in the variable userName:
-            Console.WriteLine("Enter username:");
-            string userName = Console.ReadLine();
-            Console.WriteLine("Username is: " + userName);
+            //Exercise 2: Fill in the missing parts to print a number put in by the user:
+            Console.WriteLine("Think of a number:");
+            int myNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your number is: " + myNum);
         }
     }
 }
