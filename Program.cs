@@ -8,15 +8,16 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Print i as long as i is less than 6.
+            //Exercise 2: Use the do/while loop to print i as long as i is less than 6.
 
 
             int i = 1;
-            while (i < 6) 
+            do
             {
                 Console.WriteLine(i);
                 i++;
             }
+            while (i < 6);
 
         }
     }
