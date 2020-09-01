@@ -8,10 +8,10 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 5: Use the correct property to print the length of the txt string.
+            //Exercise 6: Use the correct method to output the value of the txt string to upper case letters.
 
-            string txt = "Hello";
-            Console.WriteLine(txt.Length);
+            string txt = "Hello World";
+            Console.WriteLine(txt.ToUpper());
 
         }
     }
