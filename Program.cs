@@ -8,10 +8,9 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 2: Fill in the missing parts to print a number put in by the user:
-            Console.WriteLine("Think of a number:");
-            int myNum = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Your number is: " + myNum);
+            //Exercise 1: Multiply 10 with 5, and print the result.
+            Console.WriteLine(10 * 5);
+
         }
     }
 }
