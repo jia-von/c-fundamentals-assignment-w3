@@ -1,22 +1,16 @@
 ﻿using System;
 
-namespace C_Fundamentals_Assignment_W3 
+namespace C_Fundamentals_Assignment_W3
 {
-    class Program 
+    class Program
 
-    { 
+    {
         static void Main(string[] args)
         {
-            //Exercise 1
-            int myNum = 9;
-            double myDoubleNum = 8.99;
-            char myLetter = 'A';
-            bool myBoolean = false;
-            string myText = "Hello World";
 
-            //Answer is correct
-
-
+            //Exercise 1: Create two boolean variables, named yay and nay, and add appropriate values to them:
+            bool yay = true;
+            bool nay = false;
         }
     }
 }
