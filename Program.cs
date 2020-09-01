@@ -8,11 +8,9 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Use the correct method to print the highest value of x and y.
+            //Exercise 2: Use the correct method to print the square root of x.
 
-            int x = 5;
-            int y = 10;
-            Console.WriteLine(Math.Max(x, y));
+            Console.WriteLine(Math.Sqrt(64));
 
         }
     }
