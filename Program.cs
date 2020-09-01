@@ -5,7 +5,7 @@ namespace C_Fundamentals_Assignment_W3
     class Car
 
     {
-        public string model;
+        private string model;
 
         public Car()
         {
@@ -13,7 +13,7 @@ namespace C_Fundamentals_Assignment_W3
         }
         static void Main(string[] args)
         {
-            //Exercise 5: Create a constructor of Car, and call it:
+            //Exercise 6: Use an access modifier to make the model variable NOT accessible from outside its own class.
             Car Ford = new Car();
             Console.WriteLine(Ford.model);
         }
