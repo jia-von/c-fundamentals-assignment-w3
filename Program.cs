@@ -8,15 +8,16 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 2: Insert the missing parts to call MyMethod two times.
-            MyMethod();
-            MyMethod();
+            //Exercise 3: Add a fname parameter of type string to MyMethod.
+            MyMethod("Liam");
+            MyMethod("Jenny");
+            MyMethod("Anja");
 
         }
 
-        static void MyMethod() 
+        static void MyMethod(string fname) 
         {
-          Console.WriteLine("I just got executed!");
+            Console.WriteLine(fname + " Refsnes");
         }
 }
 }
