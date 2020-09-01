@@ -8,9 +8,9 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Create two boolean variables, named yay and nay, and add appropriate values to them:
-            bool yay = true;
-            bool nay = false;
+            //Exercise 3: Create a greeting variable, and display the value of it:
+            string greeting = "Hello";
+            Console.WriteLine(greeting);
         }
     }
 }
