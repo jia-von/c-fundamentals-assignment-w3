@@ -8,17 +8,14 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 5: Use the correct method to sort the cars array.
-
-
-
-            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
-            Array.Sort(cars);
-            foreach (string i in cars)
-            {
-                Console.WriteLine(i);
-            }
+            //Exercise 1: Create a method named MyMethod and call it inside Main().
+            MyMethod();
 
         }
-    }
+
+        static void MyMethod() 
+        {
+          Console.WriteLine("I just got executed!");
+        }
+}
 }
