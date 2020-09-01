@@ -1,27 +1,38 @@
-﻿using System;// means that we can use classes from the System namespace
+﻿using System;
 
-namespace C_Fundamentals_Assignment_W3 //namespace is used to organize my code, and it is a container for classes and other namespace
+namespace C_Fundamentals_Assignment_W3 
 {
-    class Program // is a container for data and methods, which brings functionality to your pgrogram. 
-        //Every line of code that runs in c# must be inside a class. 
+    class Program 
 
-    {   //Tutorial notes F5 is to debug the code --> Completed debugging September 1, 2020 at 10:18 am.
-        /*--------------------------------------EXERCISE STARTS---------------------------------------*/
-        //Exercise 1: Syntax exercise COMPLETED
-        static void Main(string[] args)// Any code inside the curly braces of Main will be executed. 
+    { 
+        static void Main(string[] args)
         {
-            Console.WriteLine("Initial Commit"); // Console is a class of the namespace , when clicked on IDE, it has metadata appeared. 
-        /*---------------------------------------EXERCISE ENDS----------------------------------------------------------*/
+            Console.WriteLine("Initial Commit"); 
 
-            /*-------------------------------------EXERCISE STARTS---------------------------------------------*/
-            //Execise 1: Comments -- COMPLETED
-            //This is a single-line comment 
-            /*
-             * This is a multi-line comment
-             */
-        /*-------------------------------------------EXERCISE ENDS----------------------------------------------------------*/
             double myDoubleNum = 5.99D;
             Console.WriteLine(myDoubleNum); // output myDoubleNum doesn't show the 'D' at the end. 
+
+            //Execise 1:  Create a variable named myNum and assign the value 50 to it.
+            int myNum = 50;
+
+            //Exercise 2: Create a variable named myName and assign the value "John" to it.
+            string myName = "John";
+
+            //Exercise 3: Display the sum of 5 + 10, using two variables: x and y.
+            int x = 5;
+            int y = 10;
+            Console.WriteLine(x + y);
+
+            //Exercise 4: Create an int variable called z, assign x + y to it, and display the result.
+
+            int x = 5;
+            int y = 10;
+            int z = x + y;
+            Console.WriteLine(z);
+
+            //Exercise 5: Fill in the missing parts to create three variables of the same type, using a comma-separated list:
+            int x = 5, y = 6, z = 50;
+            Console.WriteLine(x + y + z);
         }
     }
 }
