@@ -8,12 +8,15 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 2: Change the value from "Volvo" to "Opel", in the cars array.
+            //Exercise 4: Loop through the elements in the cars array using the foreach loop.
 
 
-            string[] cars = { "Volvo", "BMW", "Ford", "Mazda"};
-            cars[0] = "Opel";
-            Console.WriteLine(cars[0]);
+
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            foreach (string i in cars)
+            {
+                Console.WriteLine(i);
+            }
 
         }
     }
