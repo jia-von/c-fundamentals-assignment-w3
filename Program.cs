@@ -8,9 +8,12 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Fill in the missing part to create a greeting variable of type string and assign it the value Hello.
+            //Exercise 2: Use the correct operator to concatenate two strings:
 
-            string greeting = "Hello";
+            string firstName = "John ";
+            string lastName = "Doe";
+            string name = firstName + lastName;
+            Console.WriteLine(name);
 
         }
     }
