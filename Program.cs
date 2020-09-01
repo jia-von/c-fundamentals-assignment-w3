@@ -8,18 +8,21 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 3: Print "Yes" if x is equal to y, otherwise print "No".
-
+            //Exercise 4: Print "1" if x is equal to y, print "2" if x is greater than y, otherwise print "3".
 
             int x = 50;
             int y = 50;
             if(x == y) 
-{
-                Console.WriteLine("Yes");
+            {
+                Console.WriteLine("1");
+            }else
+            if(x > y) 
+            {
+                Console.WriteLine("2");
             }
             else
             {
-                Console.WriteLine("No");
+                Console.WriteLine("3");
             }
 
         }
