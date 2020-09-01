@@ -8,10 +8,10 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 4: Access the first character (H) in myString and print the result:
+            //Exercise 5: Use the correct property to print the length of the txt string.
 
-            string myString = "Hello";
-            Console.WriteLine(myString[0]);
+            string txt = "Hello";
+            Console.WriteLine(txt.Length);
 
         }
     }
