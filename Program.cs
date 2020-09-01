@@ -8,9 +8,9 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 2: Use the correct method to print the square root of x.
+            //Exercise 3: Use the correct method to round the number 2.6 to its nearest integer.
 
-            Console.WriteLine(Math.Sqrt(64));
+            Console.WriteLine(Math.Round(2.6));
 
         }
     }
