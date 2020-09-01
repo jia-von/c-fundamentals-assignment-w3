@@ -2,20 +2,14 @@
 
 namespace C_Fundamentals_Assignment_W3
 {
-    class Car
+    class Car : Vehicle
 
     {
-        private string model;
 
-        public Car()
-        {
-            model = "Mustang";
-        }
         static void Main(string[] args)
         {
-            //Exercise 6: Use an access modifier to make the model variable NOT accessible from outside its own class.
-            Car Ford = new Car();
-            Console.WriteLine(Ford.model);
+            //Exercise 7: The Car class should inherit the class members from the Vehicle class. Fill in the missing part to make this possible.
+
         }
 
     }
