@@ -8,16 +8,19 @@ namespace C_Fundamentals_Assignment_W3
         static void Main(string[] args)
         {
 
-            //Exercise 1: Insert the missing parts to complete the following switch statement.
+            //Exercise 2: Complete the switch statement, and add the correct keyword at the end to specify some code to run if there is no case match in the switch statement.
 
-            int day = 2;
+            int day = 3;
             switch (day)
             {
             case 1:
-                Console.WriteLine("Monday");
+                Console.WriteLine("Today is Saturday");
             break;
             case 2:
-                Console.WriteLine("Tuesday");
+                Console.WriteLine("Today is Sunday");
+            break;
+            default:
+                Console.WriteLine("Looking forward to the Weekend");
             break;
         }
 
