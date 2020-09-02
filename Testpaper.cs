@@ -6,6 +6,7 @@ namespace C_Fundamentals_Assignment_W3
 {
     public class Testpaper : ITestpaper
     {
+        //Property Implementation: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface
         public string Subject { get; }
         public string[] MarkScheme { get; }
         public string PassMark { get; }
