@@ -21,6 +21,7 @@ namespace C_Fundamentals_Assignment_W3
             student2.TakeTest(paper2, new string[] { "1C", "2D", "3A", "4C" });
             student2.TakeTest(paper3, new string[] { "1A", "2C", "3A", "4C", "5D", "6C", "7B" });
             Console.WriteLine($"Student 2 Results: {student2.TestsTaken[0]}");
+            Console.WriteLine($"Student 2 Results: {student2.TestsTaken[1]}");
         }
 
 	}

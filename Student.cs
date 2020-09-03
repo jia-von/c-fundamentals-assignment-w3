@@ -25,15 +25,8 @@ namespace C_Fundamentals_Assignment_W3
                 }
             }
         }
-        //public string[] Answers { get; set; }
-        //public ITestpaper Paper { get; set; }
 
-        //public void TakeTest(ITestpaper paper, string[] answers)
-        //{
-        //    Paper = paper;
-        //    Answers = answers;
-        //}
-
+        int index = 0; //declare initial index for TestsTaken array based instead of Lists
         public void TakeTest(ITestpaper paper, string[] answers)
         {
             decimal matches = 0; // calculate the number of matches between answers and paper.MarkScheme
@@ -54,20 +47,22 @@ namespace C_Fundamentals_Assignment_W3
 
             //Validation for pass and fail
             if (finalResult>decimal.Parse(paper.PassMark.Remove(2)))
-            {
+            {   
                 //push the result into TestsTaken Array
-                TestsTaken = new string[] { $"{paper.Subject}: Pass! ({finalResult}%)" };
+                TestsTaken[index] =  $"{paper.Subject}: Pass! ({finalResult}%)";
+                index++;
             }
             else
             {
-                TestsTaken = new string[] { $"{paper.Subject}: Fail! ({finalResult}%)" };
+                TestsTaken[index] = $"{paper.Subject}: Fail! ({finalResult}%)";
+                index++;
             }
 
 
         }
         public Student()
         {
-            TestsTaken = new string[]{};
+            TestsTaken = new string[20];
         }
     }
 
