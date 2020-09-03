@@ -36,7 +36,7 @@ namespace C_Fundamentals_Assignment_W3
 
         public void TakeTest(ITestpaper paper, string[] answers)
         {
-            int matches = 0; // calculate the number of matches between answers and paper.MarkScheme
+            decimal matches = 0; // calculate the number of matches between answers and paper.MarkScheme
 
             for (int i = 0; i<paper.MarkScheme.Length; i++)//start of comparison of the answer
             {
@@ -47,11 +47,23 @@ namespace C_Fundamentals_Assignment_W3
                     matches++;
                 }
             }//end of the comparison of answers
-            
-            //Calculate the percentage of the paper
-            int resultPercentage = 
 
-            //TestsTaken = new string[] {paper.Subject};
+            //Calculate the percentage of the paper
+            decimal resultPercentage = matches/paper.MarkScheme.Length;
+            decimal finalResult = Math.Round(resultPercentage * 100);
+
+            //Validation for pass and fail
+            if (finalResult>decimal.Parse(paper.PassMark.Remove(2)))
+            {
+                //push the result into TestsTaken Array
+                TestsTaken = new string[] { $"{paper.Subject}: Pass! ({finalResult}%)" };
+            }
+            else
+            {
+                TestsTaken = new string[] { $"{paper.Subject}: Fail! ({finalResult}%)" };
+            }
+
+
         }
         public Student()
         {

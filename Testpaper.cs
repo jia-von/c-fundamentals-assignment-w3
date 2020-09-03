@@ -15,7 +15,7 @@ namespace C_Fundamentals_Assignment_W3
         {
             Subject = subject;
             MarkScheme = markScheme;
-            PassMark = passMark;
+            PassMark = passMark.Trim();
         }
         
     }
