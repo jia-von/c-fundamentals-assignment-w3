@@ -7,24 +7,7 @@ namespace C_Fundamentals_Assignment_W3
     public class Student : IStudent
     {
         //Property Implementation
-        private string[] _testsTaken;
-        public string[] TestsTaken {
-            get
-            { 
-                return _testsTaken;
-            } 
-            protected set
-            {
-                if (value.Length == 0)
-                {
-                    _testsTaken = new string[] { "No tests taken" };
-                }
-                else
-                {
-                    _testsTaken = value;
-                }
-            }
-        }
+        public string[] TestsTaken { get; }
 
         int index = 0; //declare initial index for TestsTaken array based instead of Lists
         public void TakeTest(ITestpaper paper, string[] answers)
@@ -57,12 +40,13 @@ namespace C_Fundamentals_Assignment_W3
                 TestsTaken[index] = $"{paper.Subject}: Fail! ({finalResult}%)";
                 index++;
             }
+        }// end of the method
 
 
-        }
         public Student()
         {
             TestsTaken = new string[20];
+            TestsTaken[0] = "No tests taken";
         }
     }
 
