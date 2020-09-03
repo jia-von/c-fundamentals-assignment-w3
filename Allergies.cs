@@ -20,10 +20,14 @@ namespace C_Fundamentals_Assignment_W3
 			Cats = 128			
 		}
 
-        // write your code below this line
+		// write your code below this line
 
-        // constructors 
+		// constructors 
 
+		public Allergies(string name)
+		{
+			Name = name;
+		}
 		public Allergies(string name, int score)
 		{
 			Name = name;
@@ -35,7 +39,7 @@ namespace C_Fundamentals_Assignment_W3
 			Name = name;
 			Irritants = allergen.Split(' '); //How to split string: https://stackoverflow.com/questions/3676261/how-to-split-text-value-into-array-with-words-in-c
 
-            foreach (string irritant in Irritants)
+            foreach (string irritant in Irritants)//Tally up the score when the string matches the allergen
             {
 				switch (irritant)
                 {
@@ -83,13 +87,14 @@ namespace C_Fundamentals_Assignment_W3
 		public string[] Irritants { get;}
 
         //methods
+
         public override string ToString()
         {
-            // add code here to return string representation of this instance
-            return base.ToString();
+			// add code here to return string representation of this instance
+			return $"{Name} has no allergies!";
         }
 
-        public void IsAllergicTo(Allergen allergen)
+		public void IsAllergicTo(Allergen allergen)
 		{
 
 		}
@@ -101,7 +106,33 @@ namespace C_Fundamentals_Assignment_W3
 
 		public void AddAllergy(string allergen)
 		{
-
+			switch (allergen)
+			{
+				case "Egg":
+					Score = 1;
+					break;
+				case "Peanuts":
+					Score = 2;
+					break;
+				case "Shellfish":
+					Score = 4;
+					break;
+				case "Strawberries":
+					Score = 8;
+					break;
+				case "Tomatoes":
+					Score = 16;
+					break;
+				case "Chocolate":
+					Score = 32;
+					break;
+				case "Pollen":
+					Score = 64;
+					break;
+				case "Cats":
+					Score = 128;
+					break;
+			}
 		}
 
 		public void AddAllergy(Allergen allergen)
@@ -111,7 +142,33 @@ namespace C_Fundamentals_Assignment_W3
 
 		public void DeleteAllergy(string allergen)
 		{
-
+			switch (allergen)
+			{
+				case "Egg":
+					Score -= 1;
+					break;
+				case "Peanuts":
+					Score -= 2;
+					break;
+				case "Shellfish":
+					Score -= 4;
+					break;
+				case "Strawberries":
+					Score -= 8;
+					break;
+				case "Tomatoes":
+					Score -= 16;
+					break;
+				case "Chocolate":
+					Score -= 32;
+					break;
+				case "Pollen":
+					Score -= 64;
+					break;
+				case "Cats":
+					Score -= 128;
+					break;
+			}
 		}
 
 		public void DeleteAllergy(Allergen allergen)
