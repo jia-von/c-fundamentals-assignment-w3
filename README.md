@@ -13,8 +13,8 @@ $ start devenv C-Fundamentals-Assignment-W3.sln
 ## Usage/Approach
 
 I completed each one of the 58 exercises posted on [w3schools.com](https://www.w3schools.com/cs/exercise.asp?filename=exercise_syntax1).
-- When an exercise is completed, I create a new branch in my repository with the name: **$number_$description”** where **$number** is the exercise number and **$description** is a description of the topic. Example: **03_VariableAssignment** (prefixing single digits with 0 stops bad alphabetical reorganization).
-- When complete, I took a screenshot of the final page showing **58 of 58 Complete** and put the screenshot in the master branch of my repository.
+- When an exercise is completed, I create a new branch in my repository with the name: **$number_$description** where **$number** is the exercise number and **$description** is a description of the topic. Example: **03_VariableAssignment** (prefixing single digits with 0 stops bad alphabetical reorganization).
+- When completed, I took a screenshot of the final page showing **58 of 58 Complete** and put the screenshot in the master branch of my repository.
 
 ![58 out of 58](Capture.PNG)
 
